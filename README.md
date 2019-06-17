@@ -9,6 +9,7 @@ By using nodejs and express framework:
 Local Usage:
 Prerequisite: Node modules should be installed on local machine 
 >npm init                   //It creates package.json file
+
 For dependencies add 
 >npm i --save module-name (express,body-parser)
 >npm install                //to add all dependencies
@@ -39,8 +40,8 @@ getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=15
    sample input for post customer
    { 
             "custId":153244,
-            "Email":"chris.barnod@ikea.com",
-            "FirstName":"Chris",
-            "LastName":"Barnod",
-            "Phone":"+46722222222"
+            "email":"chris.barnod@ikea.com",
+            "firstName":"Chris",
+            "lastName":"Barnod",
+            "phone":"+46722222222"
     }
