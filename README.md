@@ -39,11 +39,11 @@ API endpoints:
 
 2. /getCustomer?id=value endpoint with sample customer id's:
 
-getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153241
+    getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153241
 
-getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153242
+    getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153242
 
-getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153243
+    getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153243
 
 3. /postCustomer endpoint: https://nodejs-customer-243619.appspot.com/postCustomer
 
