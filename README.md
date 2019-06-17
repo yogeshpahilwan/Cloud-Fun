@@ -19,12 +19,17 @@ For dependencies add
 
 GCloud SDK Usage:
 Initialized gcloud sdk before deploying application into app engine
+
 $gcloud auth login
+
 $gcloud config set project projectId
 
 Used app engine "standard environment" to deploy the application for deploying use command
+
 $gcloud app deploy(google sdk)
+
 $gcloud app browse
+
 
 Application "Welcome" Endpoint:
 https://nodejs-customer-243619.appspot.com/
