@@ -30,13 +30,14 @@ API endpoints:
 1. /getCustomers endpoint: https://nodejs-customer-243619.appspot.com/getCustomers
 
 2. /getCustomer?id=value endpoint with sample customer id's:
+
 getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153241
 getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153242
 getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153243
 
 3. /postCustomer endpoint: https://nodejs-customer-243619.appspot.com/postCustomer
-    sample input for post customer
-    { 
+   sample input for post customer
+   { 
             "custId":153244,
             "Email":"chris.barnod@ikea.com",
             "FirstName":"Chris",
