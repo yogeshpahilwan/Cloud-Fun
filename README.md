@@ -12,7 +12,9 @@ Prerequisite: Node modules should be installed on local machine
 
 For dependencies add 
 >npm i --save module-name (express,body-parser)
+
 >npm install                //to add all dependencies
+
 >npm start                  //command to run locally 
 
 GCloud SDK Usage:
