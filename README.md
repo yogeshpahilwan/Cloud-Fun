@@ -1,10 +1,9 @@
-Initially created a datastore with (kind) "customers" with few attributes 
-like custId, FirstName, LastName, Email, Phone
+Initially created a datastore with (kind) "customers" with few attributes like custId, firstName, lastName, email, phone
 
 By using nodejs and express framework:
 - Created 3 apis: 
     - /getCustomers - api to fetch customers details from datastore
-    - /getCustomer/id?id=value - api to fetch specific customer detail from datastore
+    - /getCustomer?id=value - api to fetch specific customer detail from datastore
     - /postCustomer  - api to create new customer detail into datastore
 
 Local Usage:
@@ -31,9 +30,9 @@ API endpoints:
 1. /getCustomers endpoint: https://nodejs-customer-243619.appspot.com/getCustomers
 
 2. /getCustomer?id=value endpoint with sample customer id's:
-getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer/id?id=153241
-getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer/id?id=153242
-getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer/id?id=153243
+getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153241
+getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153242
+getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153243
 
 3. /postCustomer endpoint: https://nodejs-customer-243619.appspot.com/postCustomer
     sample input for post customer
