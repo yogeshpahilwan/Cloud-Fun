@@ -35,7 +35,7 @@ Application "Welcome" Endpoint:
 https://nodejs-customer-243619.appspot.com/
 
 API endpoints:
-1. /getCustomers endpoint: https://nodejs-customer-243619.appspot.com/getCustomers
+1. /getCustomers     endpoint: https://nodejs-customer-243619.appspot.com/getCustomers
 
 2. /getCustomer?id=value endpoint with sample customer id's:
 
@@ -45,10 +45,10 @@ API endpoints:
 
     getCustomer with id:https://nodejs-customer-243619.appspot.com/getCustomer?id=153243
 
-3. /postCustomer endpoint: https://nodejs-customer-243619.appspot.com/postCustomer
+3. /postCustomer    endpoint: https://nodejs-customer-243619.appspot.com/postCustomer
 
    sample input for post customer
-   { 
+   {
             "custId":153244,
             "email":"chris.barnod@ikea.com",
             "firstName":"Chris",
