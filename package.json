@@ -8,21 +8,26 @@
   "dependencies": {
     "@google-cloud/datastore": "^2.0.0",
     "body-parser": "^1.19.0",
-    "eslint": "^6.0.1",
     "express": "^4.17.1",
     "husky": "^3.0.0",
     "jest": "^24.8.0",
     "lint-staged": "^9.2.0",
     "stylelint": "^10.1.0"
   },
- 
   "husky": {
-      "hooks": {
-        "pre-commit": "lint-staged",
-        "test": "jest --bail —-findRelatedTests"
-      }
-    },
-    "lint-staged": {
-      "*.js": ["./node_modules/.bin/eslint --ignore-path .gitignore --fix", "git add"]
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "test": "jest --bail —-findRelatedTests"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "./node_modules/.bin/eslint --ignore-path .gitignore --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0"
+  }
 }
