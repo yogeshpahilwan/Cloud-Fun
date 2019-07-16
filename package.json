@@ -19,7 +19,7 @@
   "husky": {
       "hooks": {
         "pre-commit": "lint-staged",
-        "test": "jest"
+        "test": "jest --bail —-findRelatedTests"
       }
     },
     "lint-staged": {
