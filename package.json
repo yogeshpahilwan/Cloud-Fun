@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "It's a sample app engine standard environment demo with datastore in which created a rest endpoints to fetch data from datastore.",
   "main": "index.js",
+  
   "scripts": {
-    "start": "node index"
-  },
+    "pretest": "./node_modules/.bin/eslint --ignore-path .gcloudignore . --fix"
+    },
+
+    "husky": {
+      "hooks": {
+        "pre-commit": "npm run pretest"
+      }
+    },
   "author": "YSP",
   "license": "ISC",
   "dependencies": {
@@ -13,4 +20,5 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
   }
+
 }
