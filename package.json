@@ -6,7 +6,7 @@
   "author": "YSP",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/datastore": "^2.0.0",
+    "@google-cloud/datastore": "^6.0.0",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "husky": "^3.0.0",
